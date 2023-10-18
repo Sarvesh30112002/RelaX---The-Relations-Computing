@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="'RelaX - The Relations Computing'">
+    <meta name="author" content="Sarvesh Hadole">
+
+    <title>RelaX - The Relations Computing</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- This is the division which play a role as a container to the whole page element -->
+    <div class="container">
+        <!-- This is the header section which contain the title of the page -->
+        <header class="title-header">
+            <h1>RelaX - The Relations Computing</h1>
+        </header>
+
+        <!-- This is the main section which contain the input field for user to enter a set of input
+            and output field to display the result -->
+        <main>
+            <!-- This section consists of input form that will take a set of elements -->
+            <div class="input-form">
+                <br><label for="elements">Input a set of elements 👇</label><br>
+                <input type="text" name="elements" id="elements" placeholder="eg: {(1,1),(2,2),(3,3)...}"><br>
+                <button class="btn-submit" id="calc-relation" onclick="result.displayResult()">Determine the Properties
+                    of Relation</button><br><br>
+            </div>
+
+            <!-- This section will display the result -->
+            <div id="result-area" class="result-area"><br>
+                <p class="properties" id="properties">This set properties is</p>
+                <p class="ref-closure" id="ref-closure"></p>
+                <p class="sym-closure" id="sym-closure"></p>
+                <p class="tra-closure" id="tra-closure"></p>
+            </div>
+
+            <!-- This is the right sidebar section which contain group members name -->
+
+            <script src="app.js"></script>
+</body>
+
+</html>

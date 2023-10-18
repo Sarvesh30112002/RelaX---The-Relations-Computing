@@ -1,0 +1,113 @@
+body {
+    font-family: 'Cambria Math', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    /* text-align: center; */
+    height: 100%;
+    margin: auto;
+    background-image: url(https://wallpapers.com/images/file/drops-rain-glass-blur-s2hg0adxibb53bmx.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: center;
+    background-position: top left;
+    background-size: contain;
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-header {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(176, 238, 5);
+    color: black;
+    font-family: cursive;
+}
+
+.input-form {
+    text-align: center;
+    font-size: 24px;
+}
+
+#elements {
+    width: 50%;
+    padding: 5px;
+    margin: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+
+.btn-submit {
+    width: 25%;
+    font-size: 1.3rem;
+    padding: 5px;
+    margin: 9px;
+    border-radius: 10px;
+    background-color: rgb(176, 238, 5);
+}
+
+.btn-submit:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.result-area {
+    background-color: midnightblue;
+    width: 60%;
+    min-height: 170px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;
+    box-shadow: 2px 2px 2px #46587f;
+}
+
+.credit {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    background-color: black;
+    width: fit-content;
+    position: absolute;
+    right: 36.5%;
+}
+
+table {
+    margin: auto;
+    width: 400px;
+    font-size: 0.8rem;
+}
+
+table th {
+    border: 0.5px solid black;
+    background-color: mediumvioletred;
+}
+
+.member {
+    width: 70%;
+}
+
+.group {
+    background-color: #38260b;
+}
+
+p {
+    margin: 0;
+}
+
+#by {
+    position: absolute;
+    top: 42px;
+    right: 230px;
+    font-size: 17px;
+}
